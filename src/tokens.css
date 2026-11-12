@@ -1,0 +1,41 @@
+/* Design tokens — based on "Apple Minimal", recoloured to a dark red palette */
+:root {
+  /* Colors */
+  --color-primary: #a4161a;      /* main CTA, emphasis */
+  --color-primary-70: #85090f;   /* hover / active */
+  --color-primary-60: #c43a3f;   /* soft highlight */
+  --color-secondary: #d64045;    /* secondary links / outlined actions */
+  --color-tertiary: #8b1e24;     /* text links */
+  --color-neutral: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #1f1416;   /* warm near-black ink */
+  --color-background: #ffffff;
+  --color-border: #eadfe0;
+  --color-muted: #f8f3f3;
+  --color-error: #d92d20;
+  --color-ink-band: #1a0b0d;     /* deep wine band for contrast sections */
+  --color-on-band: #f5eaea;
+  --color-on-band-soft: #b9a3a5;
+
+  /* Typography */
+  --font-text: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Inter", Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", "Inter", Arial, sans-serif;
+
+  /* Radius */
+  --rounded-none: 0px;
+  --rounded-sm: 4px;
+  --rounded-md: 8px;
+  --rounded-lg: 16px;
+  --rounded-xl: 24px;
+  --rounded-full: 980px;
+
+  /* Spacing */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 54px;
+  --space-xl: 70px;
+  --gutter: 24px;
+  --section: 54px;
+  --page: 70px;
+}
